@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'inter', sans-serif;
+}
+
+#item{
+    color:black;
+}
+
+
+#banner{
+    background-image: url(imagens/15.png);
+    background-size: cover;
+}
+#txtBanner{
+    margin-top: 10rem;
+}
+#bannerTitulo, #bannerSubtitulo{
+    color:white;
+}
+
+#bannerTitulo{
+    font-size: 1em;
+    margin-left: 6rem;
+    line-height: 2.4em;
+}
+
+#bannerSubtitulo{
+    text-transform: uppercase;
+    margin-left: 3rem;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: bold;
+    
+   
+}
+#bannerParagrafo{
+    font-size:1em;
+    color: white;
+    margin-left: 1rem;
+       
+}
+
+#btn-banner{
+    margin-left: 10rem;
+    border-radius: 30px;
+    width:10rem;
+}
+#icone-banner{
+    text-align: center;
+}
+
+
+
+#banner_dois{
+    margin-top: 3rem;
+    background-image: url(imagens/15.png);
+    background-size: cover;
+}
+#img-section2{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+
+.item-lista{
+    list-style: none;
+    padding:0.5em;
+}
+
+.preco{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.mes{
+    color:grey;
+    margin-left: 12rem;
+}
+
+.section_planos, .paragrafo_planos{
+    text-align: center;
+    margin-top:10px;
+}
+#tituloCard1{
+    background-color: rgb(40, 160, 130);
+
+}
+
+#tituloCard2{
+    background-color: rgb(47, 47, 175);
+}
+#tituloCard3{
+    background-color: rgb(134, 37, 134);
+}
+
+#tituloCard1, #tituloCard2, #tituloCard3{
+    font-weight: bolder;
+    color:white;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+#btn{
+    text-align: center;
+}
+
+
+#caracteristicas{
+    margin-top: 3rem;
+    background-image: url(imagens/15.png);
+    
+}
+
+#imgs_caracteristicas1, #imgs_caracteristicas2, #imgs_caracteristicas3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+#infos_adc{
+    color:grey;
+}
+
+footer{
+    justify-content: space-around; 
+    font-size: 0.9em;
+    padding:5px;
+    background-color: rgb(18, 102, 180);
+}
