@@ -26,6 +26,7 @@
     font-size: 1em;
     margin-left: 6rem;
     line-height: 2.4em;
+    text-transform: uppercase;
 }
 
 #bannerSubtitulo{
@@ -49,6 +50,7 @@
     border-radius: 30px;
     width:10rem;
 }
+
 #icone-banner{
     text-align: center;
 }
@@ -81,12 +83,13 @@
 
 .mes{
     color:grey;
-    margin-left: 12rem;
+    margin-left: 8rem;
 }
 
 .section_planos, .paragrafo_planos{
     text-align: center;
     margin-top:10px;
+    color:rgb(85, 85, 85);
 }
 #tituloCard1{
     background-color: rgb(40, 160, 130);
@@ -105,16 +108,20 @@
     color:white;
     font-size: 2.4em;
     text-align: center;
+    border-radius: 4px;
 }
 
 #btn{
     text-align: center;
 }
 
-
+.nomeCaracteristica, .descricao{
+    color:white;
+}
 #caracteristicas{
     margin-top: 3rem;
     background-image: url(imagens/15.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -127,7 +134,7 @@
 
 
 #infos_adc{
-    color:grey;
+    color:rgb(92, 91, 91);
 }
 
 footer{
@@ -135,4 +142,28 @@ footer{
     font-size: 0.9em;
     padding:5px;
     background-color: rgb(18, 102, 180);
+    color:white;
+}
+
+@media screen and (min-width: 300px) and (max-width:992px) {
+    #img-banner{
+        max-width: 90vw;
+    }
+    #txtBanner{
+        margin-top: 10px;
+    }
+    #btn-banner{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #img-section2{
+        max-width: 92vw;
+    }
+    .card-plano{
+        max-width: 100px;
+    }
+  
+    .mes{
+        margin-left: 2rem;
+    }
 }
